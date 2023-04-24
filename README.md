@@ -1,11 +1,11 @@
-About bw2analyzer
-=================
+About bw2analyzer-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bw2analyzer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/brightway-lca/brightway2-analyzer
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bw2analyzer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Set of tools to analyze results of life cycle assessment (LCA) calculations
 
@@ -145,5 +145,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@cmutel](https://github.com/cmutel/)
 * [@m-rossi](https://github.com/m-rossi/)
 

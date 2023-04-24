@@ -1,5 +1,5 @@
 {% set name = "bw2analyzer" %}
-{% set version = "0.11.4" %}
+{% set version = "0.11.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a9f48998e249d91f89fe5e100dc41cdb2169f9ced0da56695837f0552b39de74
+  sha256: dbb60e725805e2f1335d56b91cb544cdd7655a5f17d9b01c6be195bf1375a93b
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
