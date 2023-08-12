@@ -25,12 +25,12 @@ requirements:
     - matplotlib-base
     - numpy
     - pandas
-    - pyprind
     - python >=3.4
     - requests
     - scipy
     - stats_arrays
     - tabulate
+    - tqdm
 
 test:
   imports:
