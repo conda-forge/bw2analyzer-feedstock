@@ -1,5 +1,5 @@
 {% set name = "bw2analyzer" %}
-{% set version = "0.11.5" %}
+{% set version = "0.11.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dbb60e725805e2f1335d56b91cb544cdd7655a5f17d9b01c6be195bf1375a93b
+  sha256: 2336589b1f292d64a0b1dcf95d841444146fb09de192e17aa78c1edc1e8b788b
 
 build:
   noarch: python
@@ -25,12 +25,12 @@ requirements:
     - matplotlib-base
     - numpy
     - pandas
-    - pyprind
     - python >=3.4
     - requests
     - scipy
     - stats_arrays
     - tabulate
+    - tqdm
 
 test:
   imports:
